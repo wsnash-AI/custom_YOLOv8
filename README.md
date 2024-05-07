@@ -1,3 +1,11 @@
+# YOLOv8
+All scripts and code I wrote for training, and using a YOLOv8 model
+## Files
+- `train_yoloV8.py`: Trains a YOLOv8 model of a dataset
+- `yolo_model.py`: Using the trained model, on an local image, url of an image, or a video
+- `convert_dataset_YOLOv8.py`: Converts the Label-Studio YOLO format to YOLOv8 format
+- `fix_SRGB.sh`: (NEEDS image magick install) Fixes werid SRGB warning for pngs
+
 # Guide
 [How To Train YoloV8](https://blog.roboflow.com/how-to-train-yolov8-on-a-custom-dataset/)
 
@@ -36,7 +44,3 @@
     - `.image()`: Provide a path to an image to get results shown (Does not save the detections photo)
     - `.image_url()`: Provide a url to an image (Does not save the detections photo)
     - `.video()`: Provide a video for the detection to be applied (Will save to a different file)
-
-# Label-Studio
-MOVED!
-[Label-Studio](https://github.com/wsnash-AI/Label-Studio/tree/main)
