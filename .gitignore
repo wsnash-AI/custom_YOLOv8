@@ -1,0 +1,7 @@
+mydata
+runs
+datasets
+venv
+__pycache__
+
+*.pt
